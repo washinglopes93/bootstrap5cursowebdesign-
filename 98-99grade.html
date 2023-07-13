@@ -13,13 +13,17 @@
 
 </head>
 
+<!--Nessa aula ele usou o que da documentação do bootstrap? Layout : Breakpoints / Container / Grid / Columns-->
+
 <body>
-    <div class="row justify-content-center align-items-center g-2">
-        <div class="col bg-primary col-8">A</div>
+
+  <!--Aqui esta o ensimaneto da aulas 98 criando a tabela-->
+    <div class="row">
+        <div class="col bg-primary">A</div>
         <div class="col bg-success">B</div>
         <div class="col bg-danger">C</div>
     </div>
-    <div class="row justify-content-center align-items-center g-2">
+    <div class="row">
         <div class="col bg-danger">A</div>
         <div class="col bg-primary">B</div>
         <div class="col bg-success">C</div>
@@ -38,6 +42,30 @@
             3
         </div>
     </div>
+
+<!--Aqui esta começo da aula 99 que est falando sobr o uso da classe container-->      
+<div class="container">
+  <div class="row justify-content-center align-items-center g-2">
+      <div class="col bg-primary col-8">A</div>
+      <div class="col bg-success">B</div>
+      <div class="col bg-danger">C</div>
+  </div>
+  <div class="row justify-content-center align-items-center g-2">
+      <div class="col bg-danger">A</div>
+      <div class="col bg-primary">B</div>
+      <div class="col bg-success">C</div>
+  </div>
+</div>
+
+<!--Aqui esta começo da aula 99 que est falando sobr o uso da classe container com fluid e responsividade usando os breakpoint-->      
+<div class="container-fluid">
+  <div class="row justify-content-center align-items-center g-2">
+      <div class="col bg-primary col-12 col-xxl-2 col-xl-4 col-lg-6 col-md-8 col-sm-10">X</div>
+      <div class="col bg-success col-12 col-xxl-2 col-xl-4 col-lg-6 col-md-8 col-sm-10">X</div>
+      <div class="col bg-danger col-12 col-xxl-2 col-xl-4 col-lg-6 col-md-8 col-sm-10">X</div>
+  </div>  
+</div>
+
   <header>
     <!-- place navbar here -->
   </header>

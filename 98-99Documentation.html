@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>98-99 Documentation </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+<!--Nessa aula ele usou o que da documentação do bootstrap? Layout : Breakpoints / Container / Grid / Columns-->
+<!--Então vou aplicar o que foi ensinado na aula e aplicar usando a documentação propria d bootstrap -->
+<!--Basicamente nessas duas aulas 98 e 99 ele falou de costumizadores de Layout que são os Breakpoints / Container / Grid e Columns-->
+<!--Vamos começar entendo os breakpoink-->
+<!--Segundo o site: Breakpoints are customizable widths that determine how your responsive layout behaves across device or viewport sizes in Bootstrap. -->
+<!--Com isso podemos entender que dependendo do tamanho do de visualização do dispositivo a classe vai ficar de um formato-->
+<!--Conforme formos trabalhando com as variadas classes podemoes então aplicar esses breakpoint-->
+
+<!-- Vamos agora aprender a classe container-->
+<!--Segundo A documentação : https://getbootstrap.com/docs/5.3/layout/containers/ -->
+<!--Containers are a fundamental building block of Bootstrap that contain, pad, and align your content within a given device or viewport.-->
+<!--O que posso falar sobre container é um lugar onde fica nosso conteudo e podemos tratar coisa nele -->
+<!-- Depoi a documentação fala de 3 tipo diferente de container que vou usar aqui-->
+<!-- para consta os 3 diferentes tipos é o deafult e com breakpoint e o fluido-->
+<div class="container"><h1 align="center">Layout - Breakpoint, Container, Grid, Columns</h1></div>
+<br>
+
+<!--Começando com Default container-->
+
+<h2 align="center">Containers</h2>
+<h3 align="center">Container Default</h3>
+<div class="container bg-danger">
+    Container default aqui aplicado com fundo vermelho: .container	100%	540px	720px	960px	1140px	1320px
+</div>
+
+<br>
+
+<!-- Breakpoint no container ou seja layout responsivo-->
+<h3 align="center">Container with breakpoint</h3>
+<div class="container-sm bg-primary">
+    Container usando breakpoint de SM com a seguinte informação : .container-sm	100%	540px	720px	960px	1140px	1320px
+</div>
+
+<br>
+
+<div class="container-md bg-primary">
+    Container usando breakpoint de MD com a seguinte informação : .container-md	100%	100%	720px	960px	1140px	1320px
+</div>
+
+<br>
+
+<div class="container-lg bg-primary">
+    Container usando breakpoint de LG com a seguinte informação: .container-lg	100%	100%	100%	960px	1140px	1320px
+</div>
+
+<br>
+
+<div class="container-xl bg-primary">
+    Container usando breakpoint de LG com a seguinte informação: .container-xl	100%	100%	100%	100%	1140px	1320px
+</div>
+
+<br>
+
+<div class="container-xxl bg-primary">
+    Container usando breakpoint de XXL com a seguinte informação: .container-xxl	100%	100%	100%	100%	100%	1320px
+</div>
+
+<br>
+
+<!--Agora vem o container fluid que pega 100% de largura da pagina em qualquer tamanho-->
+<div class="container"><h3 align="center">Container fluid</h3></div>
+<div class="container-fluid bg-success">
+    Contaener fluid usando 100% da largura da pagina não importando o tamanho dela. 
+</div>
+
+<br>
+
+<!--Aqui começa o estudo do grid pela documentação -->
+<h2 class="text-center fst-italic" >Grid</h2>
+
+
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

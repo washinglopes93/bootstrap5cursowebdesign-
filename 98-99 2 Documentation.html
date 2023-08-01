@@ -238,19 +238,49 @@ e grandes.-->
 <!--Bom passando para o proxima técnica de uso do Grid podemos verificar que chama nesting pelo que li é uma tabela dentro de uma tabela que 
 para eu a tradução livre seria Ninho -->
 
-<!
+
+
+<div class="container text-center"><h3>Nesting</h3></div> <br>
+
+<!--Aqui foi uma tentativa de eu fazer nesting sem exemplo -->
 
 <div class="row">
   <div class="col col-sm-3 border border-dark">
-    Level 1: .col-sm-3
+    Level 1: .col-sm-3 ?
   </div>
   <div class="col">
     <div class="row">
-      <div class="col col-8 col-sm-6 border border-dark"> Level 2: .col-8 .col-sm-6</div>
-      <div class="col col-4 col-sm-6 border border-dark">Level 2: .col-4 .col-sm-6</div>
+      <div class="col col-8 col-sm-6 border border-dark"> Level 2: .col-8 .col-sm-6 ?</div>
+      <div class="col col-4 col-sm-6 border border-dark">Level 2: .col-4 .col-sm-6 ?</div>
     </div>
   </div>
 </div>
+
+<br>
+
+<!--Exemplo da documentação-->
+
+<div class="container text-center">Exemplo da documentação com o meu entendimento</div>
+
+<div class="container text-center border border-dark p-3 bg-danger">
+  <div class="row border border-dark p-3 bg-success">
+    <div class="col-sm-3 border border-dark p-3 bg-primary">
+      Level 1: .col-sm-3 Coluna 1 Fileira 1
+    </div>
+    <div class="col-sm-9 border border-dark p-3 bg-warning">Col 2 Fil1
+      <div class="row border border-dark p-3 bg-info">
+        <div class="col-8 col-sm-6 border border-dark p-3 bg-secondary">
+          Level 2: .col-8 .col-sm-6 Fil 2 Col1
+        </div>
+        <div class="col-4 col-sm-6 border border-dark p-3 bg-light">
+          Level 2: .col-4 .col-sm-6 FIl2 COl2
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
 
 
 <br>

@@ -393,19 +393,48 @@ assim -->
 <!--Eu li conceito sobre isso na documentação porém eu não entendi muito vou copiar o codigo e ver como é a responsividade disso-->
 <!--Parei melhor para ler e comprar o conteudo com o parece que ordera a colunas na order que você mesmo que o conteudo esteja em qualquer class da coluna-->
 
+<div class="container text-center">Vendo Classes <i>order</i></div>
 <div class="container text-center">
-  <div class="row">
-    <div class="col">
+  <div class="row bg-danger">
+
+    <div class="col border border-dark">
       First in DOM, no order applied
     </div>
-    <div class="col order-5">
+
+    <div class="col order-5 border border-dark">
       Second in DOM, with a larger order
     </div>
-    <div class="col order-1">
+
+    <div class="col order-1 border border-dark">
       Third in DOM, with an order of 1
     </div>
+
   </div>
 </div>
+
+<br>
+
+<!--Aqui vai ser a minha tentatica de fazer essa ordem-->
+<div class="container text-center">Minha tentatica de usar isso</div>
+<div class="container text-center">
+  <div class="row bg-primary">
+    <div class="col order-3 border border-dark"> Terceira Coluna</div>
+    <div class="col order-1 border border-dark"> Primeira Coluna</div>
+    <div class="col order-2 border border-dark"> Segunda Coluna</div>
+  </div>
+</div>
+<!--Mesmo o meu codigo estando desordenado eu consigo organizar ele alterar o codigo-->
+<br>
+
+<div class="container text-center">Vendo a classe <i>order-first and last</i></div>
+<div class="container text-center">
+  <div class="row bg-success">
+    <div class="col order-last border border-dark">Primeira linha no codigo porém organizado por ultimo (last)</div>
+    <div class="col border border border-dark">Segunda linha no código porém sem organização</div>
+    <div class="col order-first border border-dark">última linha do código porém organizado em primeiro</div>
+  </div>
+</div>
+
 
 
 <br>
